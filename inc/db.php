@@ -1,10 +1,10 @@
 <?php
 
-$dbname = "ultimegu";
-$server = "la18075-001.privatesql.ha.ovh.net";
-$port = "35232";
-$username = "aurelien";
-$password = "United62";
+$dbname = "";
+$server = "";
+$port = "";
+$username = "";
+$password = "";
 
 $pdo = new PDO('mysql:host='.$server.';port='.$port.';dbname='.$dbname,$username,$password);
 
